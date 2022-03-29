@@ -9,3 +9,7 @@ def get_root_path() -> str:
 
 def get_geo_chem_file_path() -> str:
     return os.path.join(_ROOT_PATH, 'data/geo_chem_9-13.xlsx')
+
+
+def get_events_catalog_file_path() -> str:
+    return os.path.join(_ROOT_PATH, 'data/CatalogFull2020.csv')
